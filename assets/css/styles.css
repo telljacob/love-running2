@@ -116,17 +116,28 @@ main {
     color: #ffffff;
 }
 
-/* Benefits section */
-#benefits {
-
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto 20px auto;
 }
 
-#benefits-physical {
-
+#reasons > h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
 }
 
-#benefits-mental {
+#benefits-physical p, #benefits-mental p {
+    padding: 0 20px;
+}
 
+#benefits-physical hr, #benefits-mental hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits-physical div, #benefits-mental div {
+    margin-bottom: 20px;
 }
 
 /* footer */
